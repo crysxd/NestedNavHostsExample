@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_nav"
+            app:startDestination="@id/noteListFragment">
+
+    <fragment
+            android:id="@+id/noteListFragment"
+            android:name="com.example.myapplication.NoteListFragment"
+            android:label="NoteList"/>
+    <fragment
+            android:id="@+id/settingsFragment"
+            android:name="com.example.myapplication.SettingsFragment"
+            android:label="SettingsFragment"/>
+    <fragment
+            android:id="@+id/trashFragment"
+            android:name="com.example.myapplication.TrashFragment"
+            android:label="TrashFragment"/>
+</navigation>
